@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BT.Contexts", "..\BT.Contexts\BT.Contexts.csproj", "{F37108C0-8937-4E9A-BB6C-20461D8A5BCE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BT.Contexts", "BT.Contexts\BT.Contexts.csproj", "{F37108C0-8937-4E9A-BB6C-20461D8A5BCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BT.Web", "..\BT.Web\BT.Web.csproj", "{81B21E49-921F-4480-A7DE-66B9391EA642}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BT.Web", "BT.Web\BT.Web.csproj", "{81B21E49-921F-4480-A7DE-66B9391EA642}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{505CA7F7-542F-40F9-B5F2-9016B7B4905D}"
 	ProjectSection(SolutionItems) = preProject
