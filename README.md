@@ -19,7 +19,8 @@
 		TestAsync用来启动异步，TestCompleted是异步完成后的回调操作。这2个方法必须成对出现。具体原理请参考MSDN
 			
 		调用是URL为:{host}/home/text  注意Async后缀在路由时会被去掉。
-		SetAsync方法必须传入AsyncManager对象，key是可选参数，如上所述是用来细分队列的，如果想根据商品ID生成队列，不同商品的秒杀行为在不同的队列中排队，就在此处用SetAsync传入key是商品ID
+		SetAsync方法必须传入AsyncManager对象，key是可选参数，如上所述是用来细分队列的。
+		如果想根据商品ID生成队列，不同商品的秒杀行为在不同的队列中排队，就在此处用SetAsync传入key是商品ID
 		
 		public void TestAsync(string key)
         {
