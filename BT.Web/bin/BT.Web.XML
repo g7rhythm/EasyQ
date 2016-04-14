@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BT.Web</name>
+    </assembly>
+    <members>
+        <member name="T:BT.Web.ApiControllers.Base.ExceptionFilter">
+            <summary>
+            异常拦截器
+            </summary>
+        </member>
+        <member name="T:BT.Web.HttpRouteCollectionEx">
+            <summary>
+            重载MapHttpRoute 扩展多2个方法支持namespace
+            </summary>
+        </member>
+    </members>
+</doc>
