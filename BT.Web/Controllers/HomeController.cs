@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using BT.Contexts;
@@ -22,19 +24,21 @@ namespace BT.Web.Controllers
             return Content("OK");
         }
 
-        public void TestAsync(string key)
+
+
+        public void OrderAsync(string key)
         {
             //GET DATA
             TestContext context = new TestContext(1);
             context.SetAsync(AsyncManager, key);//参数为产品队列标识
             context.Execute();
         }
-        public ActionResult TestCompleted()
+        public ActionResult OrderCompleted()
         {
             log.Debug("IndexCompleted 进来了");
-         var result =   AsyncManager.Parameters["response"];
+            var result = AsyncManager.Parameters["response"];
 
-         return Content(JsonConvert.SerializeObject( result));
+            return Content(JsonConvert.SerializeObject(result));
         }
     }
 }

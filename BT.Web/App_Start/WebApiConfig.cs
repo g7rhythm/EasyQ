@@ -5,7 +5,6 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Routing;
 using BT.Web.ApiControllers.Base;
-using Utils;
 
 namespace BT.Web
 {
@@ -20,29 +19,14 @@ namespace BT.Web
             config.EnableCors();
             config.Filters.Add(new ExceptionFilter());
 
-            bool showTestData;
-            if (Boolean.TryParse(ConfigTools.GetAppStr("ShowTestData"), out showTestData)==false)
-            {
-                showTestData = false;
-            }
-            if (showTestData)
-            {
+           
              config.Routes.MapHttpRoute(
                     name: "DefaultApi",
                     routeTemplate: "api/{controller}/{id}",
                     defaults: new { id = RouteParameter.Optional },
                     namespaces: new string[]{"BT.Web.ApiControllers"}
                     );
-            }
-            else
-            {
-                config.Routes.MapHttpRoute(
-                    name: "DefaultApi",
-                    routeTemplate: "api/{controller}/{id}",
-                    defaults: new { id = RouteParameter.Optional },
-                      namespaces: new string[] { "BT.Web.ApiControllers.Test" }
-                    );
-            }
+            
        
         }
      

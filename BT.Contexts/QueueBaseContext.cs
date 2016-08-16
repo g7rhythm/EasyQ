@@ -81,8 +81,10 @@ namespace BT.Contexts
                }
                //remove q
            };
+           
            if (taskDic.ContainsKey(qKey) == false)
            {
+               
                taskDic.TryAdd(qKey, Task.Factory.StartNew(ac));
            }
            if (taskDic[qKey].IsCompleted || taskDic[qKey].IsFaulted)

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices.ComTypes;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Mvc.Async;
 
@@ -29,8 +30,6 @@ namespace BT.Contexts
          public override void Persist()
          {
              //持久化
-
-            
          }
 
          public override void InitData()
