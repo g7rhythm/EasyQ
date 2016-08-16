@@ -1,184 +1,20 @@
-[Header]\r\n2016-04-13 17:16:46,582 [10] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:16:46,608 [17] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:16:47,318 [8] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:16:47,320 [8] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:16:48,341 [12] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:16:48,342 [12] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:16:49,372 [16] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:16:49,392 [12] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:17:01,761 [17] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:2 ,Q num4
-2016-04-13 17:17:01,763 [17] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:17:01,765 [16] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:17:41,403 [16] ERROR BT.Web.MvcApplication [(null)]  - 2016-04-13 17:17:41；出错页面：http://localhost:4014/home/Test?key=1；访问IP：::1
-异常信息：(操作已超时。)
-异常方法：(TResult End())
-异常来源：(System.Web.Mvc)
-异常处理：
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   在 System.Web.Mvc.Async.ReflectedAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass34.<BeginInvokeAsynchronousActionMethod>b__33(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3c()
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass30.<BeginInvokeActionMethodWithFilters>b__2f(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<>c__DisplayClass28.<BeginInvokeAction>b__19()
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<BeginInvokeAction>b__1b(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
-   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(IAsyncResult asyncResult, ProcessRequestState innerState)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
-   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
-   在 System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
-异常实例：
-
-//**********************************************************************************************************************
-
-[Footer]\r\n[Header]\r\n2016-04-13 17:22:26,875 [20] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:22:26,875 [19] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:22:26,901 [20] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:22:26,905 [19] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:22:27,669 [24] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:22:27,671 [20] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:22:27,964 [9] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:22:27,974 [9] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:22:42,696 [20] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:2 ,Q num4
-2016-04-13 17:22:42,701 [25] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:22:57,701 [20] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:23:19,493 [9] ERROR BT.Web.MvcApplication [(null)]  - 2016-04-13 17:23:19；出错页面：http://localhost:4014/home/Test?key=1；访问IP：::1
-异常信息：(操作已超时。)
-异常方法：(TResult End())
-异常来源：(System.Web.Mvc)
-异常处理：
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   在 System.Web.Mvc.Async.ReflectedAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass34.<BeginInvokeAsynchronousActionMethod>b__33(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3c()
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass30.<BeginInvokeActionMethodWithFilters>b__2f(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<>c__DisplayClass28.<BeginInvokeAction>b__19()
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<BeginInvokeAction>b__1b(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
-   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(IAsyncResult asyncResult, ProcessRequestState innerState)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
-   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
-   在 System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
-异常实例：
-
-//**********************************************************************************************************************
-
-[Footer]\r\n[Header]\r\n2016-04-13 17:24:25,079 [23] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:24:25,096 [19] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:24:25,827 [20] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:24:25,828 [20] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:24:26,122 [25] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:24:26,129 [20] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:24:26,824 [24] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:24:27,595 [25] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:24:30,200 [19] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:24:30,200 [19] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:24:30,838 [23] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:24:30,838 [23] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:24:35,215 [19] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:24:35,217 [19] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:25:22,850 [19] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:25:22,860 [9] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:25:23,631 [23] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:25:23,633 [23] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:25:24,436 [25] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:25:24,436 [25] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:25:25,438 [20] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:25:25,446 [19] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:25:27,884 [9] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:25:27,889 [9] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:25:32,917 [9] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:25:32,923 [19] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-[Footer]\r\n[Header]\r\n2016-04-13 17:27:38,001 [18] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:27:38,033 [18] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:27:38,894 [19] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:27:38,895 [19] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:27:39,015 [9] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:27:39,015 [9] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:27:39,890 [5] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:27:39,892 [19] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:27:53,132 [12] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:2 ,Q num4
-2016-04-13 17:27:53,134 [9] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:27:53,908 [18] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:27:53,910 [18] DEBUG BT.Contexts.QueueContextBase [(null)]  - IndexCompleted 进来了
-2016-04-13 17:28:08,135 [12] DEBUG BT.Contexts.QueueContextBase [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num4
-2016-04-13 17:28:31,178 [18] ERROR BT.Web.MvcApplication [(null)]  - 2016-04-13 17:28:31；出错页面：http://localhost:4014/home/Test?key=1；访问IP：::1
-异常信息：(操作已超时。)
-异常方法：(TResult End())
-异常来源：(System.Web.Mvc)
-异常处理：
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   在 System.Web.Mvc.Async.ReflectedAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass34.<BeginInvokeAsynchronousActionMethod>b__33(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3c()
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass30.<BeginInvokeActionMethodWithFilters>b__2f(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<>c__DisplayClass28.<BeginInvokeAction>b__19()
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<BeginInvokeAction>b__1b(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
-   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(IAsyncResult asyncResult, ProcessRequestState innerState)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
-   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
-   在 System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
-异常实例：
-
-//**********************************************************************************************************************
-
+2016-08-16 10:33:27,954 [8] DEBUG BT.Contexts.QueueBaseContext [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num1
+2016-08-16 10:33:30,957 [9] DEBUG BT.Contexts.QueueBaseContext [(null)]  - IndexCompleted 进来了
+2016-08-16 10:33:31,003 [8] DEBUG BT.Contexts.QueueBaseContext [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num1
+2016-08-16 10:33:34,005 [9] DEBUG BT.Contexts.QueueBaseContext [(null)]  - IndexCompleted 进来了
+2016-08-16 10:33:34,018 [8] DEBUG BT.Contexts.QueueBaseContext [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num1
+2016-08-16 10:33:37,020 [9] DEBUG BT.Contexts.QueueBaseContext [(null)]  - IndexCompleted 进来了
+2016-08-16 10:34:27,915 [9] DEBUG BT.Contexts.QueueBaseContext [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num1
+2016-08-16 10:34:30,918 [8] DEBUG BT.Contexts.QueueBaseContext [(null)]  - IndexCompleted 进来了
+2016-08-16 10:34:39,340 [11] DEBUG BT.Contexts.QueueBaseContext [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num1
+2016-08-16 10:34:42,343 [8] DEBUG BT.Contexts.QueueBaseContext [(null)]  - IndexCompleted 进来了
+2016-08-16 10:35:18,069 [17] DEBUG BT.Contexts.QueueBaseContext [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num1
+2016-08-16 10:35:21,070 [8] DEBUG BT.Contexts.QueueBaseContext [(null)]  - IndexCompleted 进来了
+2016-08-16 10:35:25,508 [8] DEBUG BT.Contexts.QueueBaseContext [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num1
+2016-08-16 10:35:28,509 [11] DEBUG BT.Contexts.QueueBaseContext [(null)]  - IndexCompleted 进来了
+[Header]\r\n2016-08-16 10:35:55,104 [8] DEBUG BT.Contexts.QueueBaseContext [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num1
+2016-08-16 10:36:05,140 [6] DEBUG BT.Contexts.QueueBaseContext [(null)]  - IndexCompleted 进来了
+2016-08-16 10:36:10,988 [7] DEBUG BT.Contexts.QueueBaseContext [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num1
+2016-08-16 10:36:20,991 [7] DEBUG BT.Contexts.QueueBaseContext [(null)]  - IndexCompleted 进来了
+2016-08-16 10:36:42,469 [8] DEBUG BT.Contexts.QueueBaseContext [(null)]  - while 进来了  killQueueitemCount length:1 ,Q num1
+2016-08-16 10:36:52,470 [7] DEBUG BT.Contexts.QueueBaseContext [(null)]  - IndexCompleted 进来了
